@@ -242,6 +242,8 @@ static void setup_initial_offsets(void)
         st7789_set_y_offset(40);
     #endif
 #endif
+    st7789_set_y_offset(35);
+
 }
 
 /* Display update callback, we could update the orientation in here

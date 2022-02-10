@@ -163,7 +163,7 @@ extern "C" {
 #endif /* CONFIG_LV_TFT_USE_CUSTOM_SPI_CLK_DIVIDER */
 
 #if defined (CONFIG_LV_TFT_DISPLAY_CONTROLLER_ST7789)
-#define SPI_TFT_SPI_MODE    (2U)
+#define SPI_TFT_SPI_MODE    (0U)
 #else
 #define SPI_TFT_SPI_MODE    (0U)
 #endif
