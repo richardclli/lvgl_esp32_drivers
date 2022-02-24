@@ -166,7 +166,7 @@ extern "C" {
 #define SPI_TFT_SPI_MODE    (CONFIG_LV_TFT_DISPLAY_CUSTOM_SPI_MODE)
 #else
 #if defined (CONFIG_LV_TFT_DISPLAY_CONTROLLER_ST7789)
-#define SPI_TFT_SPI_MODE    (0U)
+#define SPI_TFT_SPI_MODE    (2U)
 #else
 #define SPI_TFT_SPI_MODE    (0U)
 #endif
